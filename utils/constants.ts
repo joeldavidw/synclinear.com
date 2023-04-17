@@ -29,7 +29,7 @@ export const GITHUB = {
     OAUTH_ID: process.env.NEXT_PUBLIC_GITHUB_OAUTH_ID,
     OAUTH_URL: "https://github.com/login/oauth/authorize",
     TOKEN_URL: "https://github.com/login/oauth/access_token",
-    SCOPES: ["repo", "write:repo_hook", "read:user", "user:email"],
+    SCOPES: ["repo:status", "write:repo_hook", "read:user", "user:email"],
     NEW_TOKEN_URL: "https://github.com/settings/tokens/new",
     TOKEN_NOTE: "Linear-GitHub Sync",
     WEBHOOK_EVENTS: ["issues", "issue_comment", "label"],
